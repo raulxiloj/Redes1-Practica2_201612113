@@ -161,6 +161,21 @@ Para comprobar que la configuracion realizada este correcta haremos ping de unas
 - Ping de la VM a PC5 <br/>
 ![ping-vm-pc5](https://user-images.githubusercontent.com/30850990/91698480-069afe80-eb30-11ea-9d3b-b2f39068a60f.JPG)
 
+## Dominios de colision y dominios de broadcast
+
+``` 
+Switch:  n dominios de colision (n = numero puertos conectados) 
+         1 dominio de broadcast
+             
+Router:  1 dominio de colision
+         1 dominio de broadcast
+         Nota: Por cada interfaz conectada
+```
+Dada la topologia utilizada el numero de dominios de colision y de broadcast seria el siguiente:
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/30850990/91776443-9c736f80-ebaa-11ea-92ec-58ff9118159a.png" height="450px"/>
+</p>
+
 ## Captura de paquetes
 ![CapturePackages](https://user-images.githubusercontent.com/30850990/91699725-f71cb500-eb31-11ea-85cd-83523a4f416a.JPG)
 
